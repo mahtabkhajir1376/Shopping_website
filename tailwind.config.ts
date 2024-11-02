@@ -8,10 +8,28 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        "header-image": "url('../../public/image/header.png')",
+        "star-option": "url('../../public/svg/Shapeone.svg')",
+        "lock-option": "url('../../public/svg/Shapetwo.svg')",
+        "shop-option": "url('../../public/svg/Shapethree.svg')",
+        wave: "url('../../public/svg/Wave.svg')",
+        "uplode-file": "url('../../public/svg/dashboard/uplode_file_icon.svg')",
       },
+      fontFamily: {
+        iransansNumber: ["iransansNumber"],
+      },
+    },
+    fontWeight: {
+      thin: "100",
+      ultraLight: "200",
+      light: "300",
+      regular: "400",
+      medium: "500",
+      demiBold: "600",
+      bold: "700",
+      Extrabold: "800",
+      Black: "900",
     },
   },
   plugins: [],
